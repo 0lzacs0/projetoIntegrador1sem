@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 85%;
+    margin: 20px auto;
+    padding: 0 25px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #FDF9D3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.entrar {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #DDA15E;
+    color: black;
+}
+
+.cadastrar {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #606C38;
+    color: white;
+}
