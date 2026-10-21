@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legados Culturais</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-            <img class="logo" src="img/Logo-legadosCulturais.png" alt="Logo do site">
-        <nav>
+            <a href="index.html"><img class="logo" src="img/Logo-legadosCulturais.png" alt="Logo do site"></a>
+        <nav class="desktop-menu">
             <ul class="navbar">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
@@ -22,14 +25,58 @@
             <a href="#" class="entrar">Entrar</a>
             <a href="#" class="cadastrar">Cadastrar</a>
         </div>
-            
+
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+    <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    
+    <nav class="mobile-menu">
+      <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#biblioteca">Biblioteca</a></li>
+              <li><a href="solucoes.html">Soluções</a></li>
+              <li><a href="contato.html">Contato</a></li>
+      </ul>
+            <div class="botoes-mobile">
+            <a href="#" class="entrar">Entrar</a>
+            <a href="#" class="cadastrar">Cadastrar</a>
+        </div>
+    </nav>
+  </div>
     </header>
 
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>PATRIMÔNIO CULTURAL</h1>
+                <p>Conhecimento, pesquisa e preservação.</p>
+            </div>
+
+
+
+
+
+        </section>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+    </main>
 </body>
 </html>
