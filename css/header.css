@@ -1,6 +1,7 @@
 header {
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 20px;
     align-items: center;
     justify-content: space-between;
     height: 100px;
@@ -19,11 +20,11 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: clamp(6px, 1.8vw, 30px);
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 24px;
+    font-size: clamp(12px, 1.6vw, 24px);
 }
 
 .navbar a {
@@ -31,23 +32,24 @@ header {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #283618;
+    white-space: nowrap;
 }
 
 .logo {
-    height: 100px;
+    height: clamp(80px, 15vw, 200px);
     width: auto;
     object-fit: contain;
 }
 
 .botoes {
     display: flex;
-    gap: 20px;
+    gap: clamp(6px, 1vw, 20px);
     
 }
 
 .entrar {
-    padding: 10px;
-    font-size: 20px;
+    padding: clamp(6px, 0.8vw, 10px);
+    font-size: clamp(12px, 1.4vw, 20px);
     border-radius: 30px;
     background-color: #DDA15E;
     color: black;
@@ -55,8 +57,8 @@ header {
 }
 
 .cadastrar {
-    padding: 10px;
-    font-size: 20px;
+    padding: clamp(6px, 0.8vw, 10px);
+    font-size: clamp(12px, 1.4vw, 20px);
     border-radius: 30px;
     background-color: #606C38;
     color: #FEFAE0;
@@ -185,7 +187,7 @@ header {
 }
 
 .logo {
-    height: 80px;
+    height: 130px;
     width: auto;
     object-fit: contain;
 }
