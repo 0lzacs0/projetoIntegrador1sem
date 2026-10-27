@@ -64,6 +64,17 @@ header {
 }
 
 
+.navbar a:hover {
+    border-bottom: 2px solid #283618;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.botoes a:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
 .hamburger,
 .mobile-menu,
 .menu-checkbox {
